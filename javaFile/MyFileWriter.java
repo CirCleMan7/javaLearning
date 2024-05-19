@@ -8,10 +8,11 @@ public class MyFileWriter
         try
         {
             FileWriter writer = new FileWriter("Cyber.txt");
-            writer.write("Hello World\n");
-            writer.write("Hello b1\n");
-            writer.write("Hello b2\n");
-            writer.write("Hello b3\n");
+            // writer.write("Hello World\n");
+            // writer.write("Hello b1\n");
+            // writer.write("Hello b2\n");
+            // writer.write("Hello b3\n");
+            writer.append("eiei\n");
             writer.close();
         }
         catch (IOException e)
