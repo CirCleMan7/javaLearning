@@ -26,4 +26,9 @@ public class human implements muStudent, thaiPerson
     {
         System.out.println("This is my Name : " + name);
     }
+
+    public void say()
+    {
+        System.out.println("eiei");
+    }
 }

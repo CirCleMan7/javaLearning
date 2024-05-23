@@ -2,8 +2,9 @@ public class car extends vehicle
 {
     int velocity;
 
-    car(int v)
+    car(int v, int wheels)
     {
+        super(wheels);
         velocity = v;
     }
 
@@ -12,4 +13,5 @@ public class car extends vehicle
     {
         System.out.println("This car is running " + velocity + " km/hr");        
     }
+
 }

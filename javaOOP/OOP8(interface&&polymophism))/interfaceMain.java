@@ -23,6 +23,7 @@ public class interfaceMain
             i.showName();
         }
 
+        human1.say();
         
     }
 }
