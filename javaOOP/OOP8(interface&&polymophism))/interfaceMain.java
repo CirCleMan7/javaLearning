@@ -1,3 +1,8 @@
+interface test
+{
+    int plusOne(int x, int y);
+}
+
 public class interfaceMain
 {
     public static void main(String[] args)
@@ -16,6 +21,7 @@ public class interfaceMain
         human human13 = new human("woody");
         thaiPerson[] people = {human11, human12, human13};
 
+
         // people = {human11, human12, human13};
 
         for (thaiPerson i : people)
@@ -24,6 +30,14 @@ public class interfaceMain
         }
 
         human1.say();
-        
+
+        test test1 = (int x, int y) -> {
+            x += 1;
+            System.out.println("Hello World " + x);
+            return x;
+        };
+
+        test1::plusOne(2, 4);
+
     }
 }
